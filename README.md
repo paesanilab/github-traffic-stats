@@ -1,3 +1,12 @@
+Add another repository
+======================
+
+* `ssh` to spinoza
+* run `sudo crontab -e zonca` to edit the crontab
+* add another line, equal to the first, with a different repository name, still under the `paesanilab` account
+
+e.g. `0 0 * * sun /home/azonca/github-traffic-stats/collect_stats.sh other_repo`
+
 Save Github traffic stats
 =======================
 
